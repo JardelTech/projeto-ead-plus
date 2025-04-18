@@ -9,24 +9,26 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="Script.js"></script>
   </head>
   <body>
     <div class="menutopo">
       <div class="textotopo">
         <a href="">EAD PLUS</a>
       </div>
-      <div class="textoopcoes">
-        <a href="">Mais opções</a>
-        <a href="">Sobre nós</a>
+      <div class="barradepesquisar">
+        <input type="search" name="inputpesquisar" id="inputsearch" placeholder="Pesquisar...">
+        <div class="botaopesquisar">
+          <button onclick="search()">
+          <i class="bx bx-search"></i>
+        </button>
+        </div>
       </div>
     </div>
 
-    <div class="barradepesquisar">
-      <input type="search" name="inputpesquisar" id="inputsearch" />
-      <div class="botaopesquisar">
-        <a><i class="bx bx-search"></i></a>
-      </div>
-    </div>
+   
+    <div id="resultados"></div>
+    <div id="erros"></div>
 
     <div class="conteinercursos">
       <div class="conteiner">
