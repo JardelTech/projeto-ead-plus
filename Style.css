@@ -5,8 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(243, 243, 243);
+}
 .menutopo {
-  background-color: rebeccapurple;
+  background-color: rgb(63, 60, 66);
   height: 120px;
 }
 .textotopo {
@@ -16,6 +19,9 @@
   text-align: center;
   justify-content: center;
   margin-right: 950px;
+}
+.textotopo span {
+  color: rgb(251, 255, 0);
 }
 .textotopo a {
   text-decoration: none;
@@ -67,10 +73,10 @@
 }
 .conteinercursos {
   height: 100%;
+  display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  display: flex;
   padding: 40px;
   flex-wrap: wrap;
   gap: 20px;
@@ -78,12 +84,13 @@
 .conteiner {
   width: 300px;
   height: 370px;
-  background-color: rgb(7, 0, 18);
+  background-color: rgb(252, 252, 252);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 16px;
   text-align: center;
   box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .card-img {
   width: 100%;
@@ -94,21 +101,21 @@
 .card-titulo {
   font-size: 18px;
   margin: 0 0 8px;
-  color: #ffffff;
+  color: #000000;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
 }
 .card-titulo a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 .card-titulo :hover {
   color: red;
 }
 .card-texto {
   font-size: 13px;
-  color: #ffffff;
+  color: #000000;
   text-align: left;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -119,12 +126,14 @@ h5 {
   text-align: left;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  font-weight: 800;
 }
 h4 {
   color: green;
   text-align: left;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  font-weight: 800;
 }
 #erros {
   display: flex;
@@ -134,4 +143,11 @@ h4 {
   margin-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+}
+.textotitulo {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 55px;
 }
