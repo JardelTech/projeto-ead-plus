@@ -14,6 +14,10 @@ function search() {
     div.style.display = "none";
   });
 
+  const div = document.querySelectorAll(".textotitulo");
+  div.forEach((div) => {
+    div.style.display = "none";
+  });
   const resultsDiv = document.getElementById("resultados");
   divs.forEach((div) => {
     if (div.textContent.toLowerCase().includes(query)) {

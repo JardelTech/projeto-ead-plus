@@ -151,3 +151,81 @@ h4 {
   font-size: 30px;
   margin-left: 55px;
 }
+.textosobre h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.textosobre p {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
+.textopolitica h3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+.textopolitica h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+}
+.invisible {
+  width: 300px;
+  height: 370px;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.textopolitica p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: monospace;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #1c1b1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+footer a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  padding: 20px;
+}
+
+footer a:hover {
+  color: rgb(192, 4, 4);
+}
